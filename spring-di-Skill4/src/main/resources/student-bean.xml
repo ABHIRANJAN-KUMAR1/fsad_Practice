@@ -1,0 +1,14 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="student1" class="com.klu.model.Student">
+        <constructor-arg index="0" type="int" value="1001"/>
+        <constructor-arg index="1" type="java.lang.String" value="Abhi"/>
+        <constructor-arg index="2" type="java.lang.String" value="Computer Science"/>
+        <constructor-arg index="3" type="int" value="2026"/>
+    </bean>
+
+</beans>
