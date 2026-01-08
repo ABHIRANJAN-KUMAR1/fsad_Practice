@@ -2,7 +2,7 @@ package com.klu.main;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-
+///
 import com.klu.model.CourseRegistration;
 
 public class MainApp {
