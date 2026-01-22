@@ -7,4 +7,3 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan("com.college")
 public class AppConfig {
 }
-//
